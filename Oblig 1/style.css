@@ -1,0 +1,89 @@
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(fonts/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(fonts/Roboto-Bold.ttf);
+}
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 4%;
+}
+#headLine{
+    text-align: center;
+    font-family: 'Roboto-Regular';
+    font-size: large;
+    background-color: #202c34;
+    padding-top: 1%;
+    padding-bottom: 2%;
+}
+#dropdown{
+    font-family: 'Roboto-Regular';
+    font-size: large;
+    background-color: #202c34;
+    list-style-type: none;
+    margin: 0;
+    padding-top: 1%;
+}
+#dropdown a {
+    font-size: 100%;
+    color: white;
+    text-decoration: none;
+}
+#dropdown li {
+    display: inline;
+    margin: 2%;
+}
+#dropdown a:hover {
+    color: grey;
+}
+#container{
+    display: block;
+    flex-direction: row;
+    background-color: #202c34;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2%;
+}
+#content {
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+    margin-right: auto;
+}
+
+#containerImage{
+    padding-left: 3%;
+    width: 30%;
+}
+
+#signUpContainer{
+    width: 30%;
+    color: white;
+    font-family: 'Roboto-Bold';
+}
+#signUpContainer button{
+    background-color: #3782f5;
+    color: white;
+    border: none;
+    padding: 2%;
+    padding-left: 6%;
+    padding-right: 6%;
+    margin: 1%;
+    font-family: 'Roboto-Bold';
+    font-size: 100%;
+    border-radius: 15px;
+}
+#signUpContainer button:hover{
+    background-color: #2e6ac4;
+}
+footer {
+    color:white;
+    background-color: #202c34;
+    padding:2%;
+    text-align: center;
+    font-family: 'Roboto-Regular';
+}
