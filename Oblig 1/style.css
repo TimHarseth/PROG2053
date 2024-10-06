@@ -97,6 +97,7 @@ footer {
     padding:2%;
     text-align: center;
     font-family: 'Roboto-Regular';
+    margin-top: 5%;
 }
 
 #articleMain {
@@ -173,4 +174,32 @@ footer {
 .quoteAuthor{
     font-family: 'Roboto-Bold';
     justify-self: end;
+}
+#blueSignUpBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3782f5;
+    width: 50%;
+    height: 10%;
+    margin: auto;
+    border-radius: 10px;
+    font-family: 'roboto-Bold';
+    color: white;
+}
+#signUpButton2{
+    background-color: #3782f5;
+    color: white;
+    padding: 5px;
+    padding-left: 4%;
+    padding-right: 4%;
+    margin: 1%;
+    font-family: 'Roboto-Bold';
+    font-size: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+    margin-left: 10%;
+}
+#signUpButton2:hover{
+    background-color: #2e6ac4;
 }
