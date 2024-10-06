@@ -224,3 +224,35 @@ footer {
     align-items: center;
     justify-content: center;
 }
+#weatherContainer{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    max-width: 100%;
+    justify-content: center;
+    height: 50%;
+}
+.weatherCard {
+    width: 10%;
+    margin: 1%;
+    padding: 1%;
+    background-color: #FFC196;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.weatherCard h3{
+    font-family: 'Roboto-Bold';
+    font-size: 150%;
+    color: #202c34;
+    text-align: center;
+}
+.weatherCard p{
+    font-family: 'Roboto-Regular';
+    font-size: 100%;
+    color: #202c34;
+    text-align: center;
+}
